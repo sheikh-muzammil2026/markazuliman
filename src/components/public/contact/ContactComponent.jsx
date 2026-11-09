@@ -1,0 +1,167 @@
+// components/public/contact/ContactComponent.jsx
+"use client";
+import { useState } from "react";
+import { useLanguage } from "@/context/LanguageContext";
+
+export default function ContactComponent() {
+  const { t } = useLanguage();
+  const [formData, setFormData] = useState({
+    name: "",
+    mobile: "",
+    subject: "",
+    message: ""
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Contact / Feedback Data:", formData);
+    alert(t("contact.success_msg"));
+    setFormData({ name: "", mobile: "", subject: "", message: "" });
+  };
+
+  return (
+    <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      {/* হেডার সেকশন */}
+      <div className="text-center mb-12">
+        <h2 className="text-3xl font-bold text-emerald-900 dark:text-emerald-400 flex items-center justify-center gap-2">
+          <span className="text-amber-500">❖</span> {t("contact.title")} <span className="text-amber-500">❖</span>
+        </h2>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{t("contact.subtitle")}</p>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+        {/* বাম পাশ: যোগাযোগের তথ্য কার্ড */}
+        <div className="lg:col-span-5 bg-emerald-900 text-emerald-50 p-6 sm:p-8 rounded-2xl shadow-md space-y-6">
+          <div>
+            <h3 className="text-lg sm:text-xl font-bold text-amber-400 mb-2">{t("contact.head_office")}</h3>
+            <p className="text-xs sm:text-sm leading-relaxed opacity-90 font-medium">
+              {t("institution.name")}<br />
+              {t("institution.address")}
+            </p>
+          </div>
+
+          <hr className="border-emerald-800" />
+
+          <div className="space-y-3 text-xs sm:text-sm font-medium">
+            <p className="flex items-center gap-3">
+              <span>📞</span> 
+              <span>{t("contact.phone_val")}</span>
+            </p>
+            <p className="flex items-center gap-3">
+              <span>💬</span> 
+              <a href="https://wa.me/8801644968911" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 underline">
+                WhatsApp: 01644-968911
+              </a>
+            </p>
+            <p className="flex items-center gap-3">
+              <span>⏱️</span> 
+              <span>{t("contact.hours_val")}</span>
+            </p>
+          </div>
+
+          <hr className="border-emerald-800" />
+
+          {/* সোশ্যাল মিডিয়া লিংক */}
+          <div>
+            <h4 className="text-xs font-bold text-amber-400 uppercase tracking-wider mb-2">{t("contact.social_media")}</h4>
+            <div className="flex gap-3 text-sm">
+              <a
+                href="https://www.facebook.com/markazulimandhaka"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-emerald-800 px-3 py-1.5 rounded-lg cursor-pointer hover:bg-emerald-700 transition-colors"
+              >
+                Facebook
+              </a>
+              <a
+                href="https://wa.me/8801644968911"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-emerald-800 px-3 py-1.5 rounded-lg cursor-pointer hover:bg-emerald-700 transition-colors"
+              >
+                WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* ডান পাশ: অভিযোগ ও পরামর্শ ফর্ম (#feedback) */}
+        <div id="feedback" className="lg:col-span-7 bg-white dark:bg-slate-800 border border-gray-100 dark:border-slate-700/60 p-6 sm:p-8 rounded-2xl shadow-sm scroll-mt-24">
+          <h3 className="text-lg font-bold text-emerald-900 dark:text-emerald-400 mb-1 flex items-center gap-2">
+            ✉️ {t("contact.feedback_box")}
+          </h3>
+          <p className="text-xs text-gray-500 dark:text-gray-400 mb-6">{t("contact.feedback_desc")}</p>
+
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label className="block text-xs font-bold text-gray-600 dark:text-gray-300 mb-1.5">{t("contact.form_name")}</label>
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  placeholder={t("contact.name_placeholder")}
+                  value={formData.name}
+                  onChange={handleChange}
+                  className="w-full bg-gray-50 dark:bg-slate-900 text-gray-800 dark:text-gray-200 text-xs sm:text-sm p-3 rounded-xl border border-gray-200 dark:border-slate-700 focus:outline-emerald-800 font-medium"
+                />
+              </div>
+              <div>
+                <label className="block text-xs font-bold text-gray-600 dark:text-gray-300 mb-1.5">{t("contact.form_phone")}</label>
+                <input
+                  type="text"
+                  name="mobile"
+                  required
+                  placeholder={t("contact.phone_placeholder")}
+                  value={formData.mobile}
+                  onChange={handleChange}
+                  className="w-full bg-gray-50 dark:bg-slate-900 text-gray-800 dark:text-gray-200 text-xs sm:text-sm p-3 rounded-xl border border-gray-200 dark:border-slate-700 focus:outline-emerald-800 font-medium"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-xs font-bold text-gray-600 dark:text-gray-300 mb-1.5">{t("contact.form_subject")}</label>
+              <input
+                type="text"
+                name="subject"
+                required
+                placeholder={t("contact.subject_placeholder")}
+                value={formData.subject}
+                onChange={handleChange}
+                className="w-full bg-gray-50 dark:bg-slate-900 text-gray-800 dark:text-gray-200 text-xs sm:text-sm p-3 rounded-xl border border-gray-200 dark:border-slate-700 focus:outline-emerald-800 font-medium"
+              />
+            </div>
+
+            <div>
+              <label className="block text-xs font-bold text-gray-600 dark:text-gray-300 mb-1.5">{t("contact.form_message")}</label>
+              <textarea
+                name="message"
+                required
+                rows="4"
+                placeholder={t("contact.message_placeholder")}
+                value={formData.message}
+                onChange={handleChange}
+                className="w-full bg-gray-50 dark:bg-slate-900 text-gray-800 dark:text-gray-200 text-xs sm:text-sm p-3 rounded-xl border border-gray-200 dark:border-slate-700 focus:outline-emerald-800 font-medium resize-none"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              className="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-bold text-xs sm:text-sm p-3.5 rounded-xl transition-all shadow-sm cursor-pointer"
+            >
+              🚀 {t("contact.form_submit")}
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  );
+}

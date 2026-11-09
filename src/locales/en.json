@@ -1,0 +1,550 @@
+{
+  "institution": {
+    "name": "Markazul Iman Dhaka",
+    "name_ar": "مركز الإيمان داكا",
+    "name_en": "Markazul Iman Dhaka",
+    "tagline": "One Institute Provides path of the here and hereafter",
+    "type_badge": "Kindergarten & Hifz Madrasah",
+    "gender_branches": "Separate Boys & Girls Branches",
+    "residence_types": "Residential, Non-residential, Day-care",
+    "address": "House #484, Road #12, West Nakhalpara, Tejgaon, Dhaka.",
+    "phone_1": "01611-375282",
+    "phone_2": "01644-968911",
+    "whatsapp": "+8801644968911",
+    "email": "info@markazuliman.com",
+    "facebook": "https://www.facebook.com/markazulimandhaka"
+  },
+  "header": {
+    "title_bn": "মারকাযুল ঈমান ঢাকা",
+    "title_ar": "مركز الإيمان داكا",
+    "title_en": "Markazul Iman Dhaka",
+    "slogan": "\"One Institute Provides path of the here and hereafter\"",
+    "phone": "01611-375282, 01644-968911",
+    "email": "info@markazuliman.com",
+    "location": "House #484, Road #12, West Nakhalpara, Tejgaon, Dhaka."
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About Us",
+    "profile": "Institute Profile",
+    "founder": "Founder's Profile",
+    "vision": "Vision & Mission",
+    "committee": "Managing Committee",
+    "features": "Our Features",
+    "roadmap": "Future Roadmap",
+    "testimonials": "Testimonials (Parents & Scholars)",
+    "policies": "Institutional Policies",
+    "faculty": "Faculty Members",
+    "staff": "Officials & Staff",
+    "roster": "Workforce & Duties",
+    "academics": "Academics",
+    "teachers": "Class Teachers List",
+    "levels": "Education Levels",
+    "syllabus": "Syllabus",
+    "co_curricular": "Co-Curricular",
+    "class_routine": "Class Routine",
+    "exam_routine": "Exam Routine",
+    "departments": "Departments",
+    "hifz": "Hifzul Quran",
+    "academic_dept": "Play to Class 5 & Kitab",
+    "admission": "Admission",
+    "timeline": "Admission Timeline",
+    "test": "Admission Test",
+    "process": "Admission Process",
+    "fees": "Admission Fees",
+    "terms": "Terms & Conditions",
+    "online_form": "Online Admission Form",
+    "hostel": "Hostel",
+    "hostel_about": "Hostel Overview",
+    "hostel_directors": "Residential Directors",
+    "hostel_rules": "Hostel Regulations",
+    "hostel_chart": "Accommodation Chart",
+    "hostel_routine": "Daily Hostel Routine",
+    "smart_classroom": "Smart Classroom",
+    "live_class": "Live Class",
+    "recorded_class": "Recorded Class",
+    "ebooks": "E-Books & Lecture Sheets",
+    "exam": "Online Exam",
+    "quiz": "Quiz Competition",
+    "notices": "Notice Board",
+    "gallery": "Gallery",
+    "results": "Results",
+    "fatwa": "Fatwa Query",
+    "contact": "Contact",
+    "contact_info": "Contact Information",
+    "feedback": "Feedback & Queries",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "more": "More",
+    "menu_title": "Markazul Iman Dhaka Menu",
+    "account_menu": "Account Menu"
+  },
+  "hero": {
+    "badge": "Admission Going On 2026-2027",
+    "admission_going_on": "Admission Going On",
+    "tagline": "One Institute Provides path of the here and hereafter",
+    "sub_heading": "Kindergarten & Hifz Madrasah • Separate Boys & Girls Branches",
+    "desc": "A trusted institution shaping your child's prosperous future through integrated Islamic and modern secular education in a safe, clean, and child-friendly environment. Featuring residential, non-residential, and day-care facilities.",
+    "notice_label": "Admission Notice:",
+    "notice_text": "📢 Admission is now open at Markazul Iman Dhaka for Play to Class 5, Hifzul Quran, Kitab Division, After-School Maktab, After-School Hifz, and Alem & Alema Course! (Separate Boys/Girls Branches | Residential, Non-residential, Day-care) 📞 01611-375282, 01644-968911",
+    "slides": [
+      {
+        "title": "A Multipurpose Islamic Education Center",
+        "subtitle": "Kindergarten & Hifz Madrasah • Separate Boys & Girls Branches"
+      },
+      {
+        "title": "Residential, Non-residential & Day-care Facilities",
+        "subtitle": "Integrated modern syllabus combining religious and secular schooling in a clean, child-friendly environment"
+      },
+      {
+        "title": "Aiming for Complete Quran Hifz by Class 5 (Insha'Allah)",
+        "subtitle": "After-School Maktab (1 Hour Daily) & progressive structured Hifz program"
+      }
+    ],
+    "btn_form": "Online Admission Form",
+    "btn_about": "Learn More About Us",
+    "btn_contact": "Contact Us",
+    "stats_branches": "Separate Boys/Girls Branches",
+    "stats_curriculum": "Integrated Syllabus",
+    "stats_quran": "Hifz & Maktab",
+    "after_school_maktab": "After-School Maktab",
+    "daily_one_hour": "1 Hour Daily",
+    "parent_callout": "Respected Parents! Join us in fulfilling our faith-based responsibility by providing our beloved children with Quranic and foundational religious education alongside conventional schooling."
+  },
+  "departments": {
+    "title": "Our Departments",
+    "subtitle": "Comprehensive modern academic curricula combining religious and secular learning",
+    "play_to_five": {
+      "title": "Play - Class 5",
+      "badge": "Primary Level",
+      "desc": "Child-centric kindergarten education providing standard secular schooling alongside pure Quran recitation, Tajweed, Duas, and Islamic etiquette."
+    },
+    "hifzul_quran": {
+      "title": "Hifzul Quran",
+      "badge": "Hifz Division",
+      "desc": "Under the close mentorship of seasoned Huffaz, children memorize the Holy Quran with authentic international vocal intonations."
+    },
+    "kitab": {
+      "title": "Kitab Division",
+      "badge": "Higher Islamic Studies",
+      "desc": "Standard academic coursework in Quranic exegesis, Hadith sciences, Arabic syntax, and Islamic jurisprudence."
+    },
+    "after_school_maktab": {
+      "title": "After-School Maktab",
+      "badge": "1 Hour Daily",
+      "desc": "5 flexible daily shifts tailored for school-going students to master Quranic recitation, daily Sunnah supplications, and core Islamic beliefs."
+    },
+    "after_school_hifz": {
+      "title": "After-School Hifz",
+      "badge": "Special Program",
+      "desc": "A specialized modern program allowing school students to systematically memorize the Holy Quran alongside regular academics."
+    },
+    "alem_alema": {
+      "title": "Alem & Alema Course",
+      "badge": "Separate Branches",
+      "desc": "In-depth Shariah and theology degree programs conducted across dedicated separate campuses for male and female students."
+    }
+  },
+  "features": {
+    "title": "Key Features",
+    "subtitle": "Why Markazul Iman Dhaka is unique and exceptional",
+    "safe_environment": {
+      "title": "Safe, Clean & Child-Friendly Environment",
+      "desc": "Highest security measures, hygienic campus sanitation, and a nurturing atmosphere prioritizing child well-being."
+    },
+    "integrated_syllabus": {
+      "title": "Integrated Religious & Secular Syllabus",
+      "desc": "A harmonious blend of Islamic values with contemporary modern school curricula."
+    },
+    "character_building": {
+      "title": "Akhlaq, Etiquette & Humanitarian Values",
+      "desc": "Focused emphasis on Sunnah-based moral character, filial piety, and humanitarian virtues."
+    },
+    "joyful_learning": {
+      "title": "No Severity—Education through Love & Care",
+      "desc": "Affectionate, joyful, and supportive pedagogical methods nurturing children's emotional and intellectual growth."
+    },
+    "dual_education": {
+      "title": "Dual Instruction: Islamic & General Education",
+      "desc": "Fluency in Bengali, English, Mathematics, Science, and Computing alongside foundational Islamic disciplines."
+    },
+    "spoken_language": {
+      "title": "Mandatory Spoken Arabic & English",
+      "desc": "Compulsory active practice in Arabic and English conversation to prepare students for global excellence."
+    },
+    "handwriting_class": {
+      "title": "Specialized Handwriting Classes in 3 Languages",
+      "desc": "Expert-led dedicated calligraphy classes for mastering handwriting in Bengali, English, and Arabic."
+    }
+  },
+  "goals": {
+    "title": "Our Vision for Your Child",
+    "subtitle": "A concrete blueprint for a Quran-centric prosperous future",
+    "quran_in_childhood": {
+      "title": "Inscribing the Holy Quran in Their Hearts During Childhood",
+      "desc": "Instilling the authentic words of Allah with pristine pronunciation during formative childhood years."
+    },
+    "khatam_by_grade_two": {
+      "title": "Complete Quran Recitation Completion by Grade 2",
+      "desc": "Achieving full Nazira recitation of the Holy Quran with correct Tajweed rules by second grade."
+    },
+    "hafez_by_grade_five": {
+      "title": "Aiming to Complete Quran Memorization by Grade 5",
+      "desc": "A structured pathway enabling students to graduate as Hafez-e-Quran before completing primary schooling (Insha'Allah)."
+    },
+    "quran_centric_life": {
+      "title": "Cultivating a Quran-Centric Lifestyle",
+      "desc": "Inspiring students to embody Quranic values and the Prophetic Sunnah in their academic, professional, and personal lives."
+    }
+  },
+  "batches": {
+    "title": "After-School Maktab Batches & Schedule",
+    "subtitle": "5 flexible daily shifts (1 hour daily) designed for school-going students",
+    "shift_badge": "1 Hour Daily Class",
+    "batch_1": {
+      "title": "1st Batch (Morning)",
+      "time": "7:00 AM - 8:00 AM",
+      "desc": "Fresh early-morning session before school starts, focusing on Noorani Quran with Tajweed and daily supplications."
+    },
+    "batch_2": {
+      "title": "2nd Batch (Morning)",
+      "time": "8:00 AM - 9:00 AM",
+      "desc": "Morning shift providing an engaging, joyful learning experience for young primary students."
+    },
+    "batch_3": {
+      "title": "3rd Batch (Afternoon)",
+      "time": "4:00 PM - 5:00 PM",
+      "desc": "Afternoon shift right after regular school dismissal, dedicated to Quranic recitation and Sunnah ethics."
+    },
+    "batch_4": {
+      "title": "4th Batch (Evening)",
+      "time": "5:00 PM - 6:00 PM",
+      "desc": "Convenient pre-Maghrib session covering Nazira reading, Masnoon prayers, and fundamental rulings."
+    },
+    "batch_5": {
+      "title": "5th Batch (Night)",
+      "time": "6:00 PM - 7:00 PM",
+      "desc": "Evening session designed for senior school students balancing busy daytime school schedules."
+    }
+  },
+  "stats": {
+    "title": "Our Track Record in Numbers",
+    "students": "Enrolled Students",
+    "students_count": "500+",
+    "huffaz": "Hifz Graduates",
+    "huffaz_count": "100+",
+    "teachers": "Qualified Instructors",
+    "teachers_count": "25+",
+    "success_rate": "Board Exam Success",
+    "success_rate_count": "100%"
+  },
+  "reviews": {
+    "title": "Guardian & Community Testimonials",
+    "subtitle": "Valued feedback regarding the academic standards and moral environment at Markazul Iman Dhaka",
+    "verified": "Verified Guardian",
+    "guardian_1": "The care and dedication of the teachers at Markazul Iman Dhaka enabled my child to make unprecedented progress in Quran recitation in a short period.",
+    "guardian_1_name": "Mawlana Rafiqul Islam",
+    "guardian_1_role": "Guardian, Play Group",
+    "guardian_2": "The balanced combination of Islamic sciences with modern English and Mathematics impressed me deeply. The campus hygiene is exemplary.",
+    "guardian_2_name": "Engr. Mostafa Kamal",
+    "guardian_2_role": "Guardian, Grade 2",
+    "guardian_3": "The After-School Maktab is an absolute blessing for our family. Our children learn authentic Deen without disturbing their regular schooling.",
+    "guardian_3_name": "Dr. Farhana Haque",
+    "guardian_3_role": "Guardian, Maktab Section"
+  },
+  "about": {
+    "page_title": "About Us",
+    "badge": "Identity & Overview",
+    "profile": {
+      "title": "Institute Profile",
+      "intro": "Markazul Iman Dhaka is a multipurpose Islamic education center established as an integrated Kindergarten and Hifz Madrasah.",
+      "history": "Situated in historic West Nakhalpara, Tejgaon, Dhaka, the institution nurtures young boys and girls in separate campuses into morally grounded, intellectually capable citizens.",
+      "mission_heading": "Our Mission",
+      "mission_text": "To develop an exemplary, competent, and God-fearing generation through the harmonious integration of Islamic values, Quran memorization, and modern schooling.",
+      "vision_heading": "Our Vision",
+      "vision_text": "To serve as an international benchmark institution where children joyful memorize the Holy Quran and excel in contemporary academic disciplines."
+    },
+    "founder": {
+      "title": "Founder's Profile",
+      "name": "Respected Founder & Principal",
+      "designation": "Principal, Markazul Iman Dhaka",
+      "message": "Bismillahir Rahmanir Raheem. Dear parents and community members, cultivating our children with Quranic wisdom and modern excellence is our highest duty. At Markazul Iman Dhaka, your child's education will be safe, fulfilling, and blessed, Insha'Allah.",
+      "bio": "Guided by prominent scholars and seasoned educators, Markazul Iman Dhaka has established itself as an exemplar of balanced education."
+    },
+    "vision": {
+      "title": "Vision & Mission",
+      "mission_title": "Our Mission",
+      "vision_title": "Our Vision",
+      "values_title": "Our Core Values",
+      "v1": "Adherence to the Quran and Sunnah",
+      "v2": "Exemplary Character & Humanitarian Integrity",
+      "v3": "Modern Education Harmonized with Faith",
+      "v4": "Child-Friendly, Compassionate Pedagogy"
+    },
+    "committee": {
+      "title": "Managing Committee",
+      "desc": "Under the advisory guidance of eminent Islamic scholars and educationists, the administration of Markazul Iman Dhaka operates with transparency and excellence."
+    },
+    "roadmap": {
+      "title": "Future Roadmap",
+      "desc": "The multidimensional journey and progressive vision of Markazul Iman Dhaka",
+      "p1_title": "Global Standards for Hifz Division",
+      "p1_desc": "Training and grooming students for international Quran recitation and memorization competitions.",
+      "p2_title": "Digital Library & Science Laboratory",
+      "p2_desc": "Establishing a rich Islamic library and modern science lab to foster intellectual and scientific curiosity.",
+      "p3_title": "Advanced Research Center",
+      "p3_desc": "Building infrastructure for comparative research between classical Islamic sciences and contemporary knowledge."
+    },
+    "policies": {
+      "title": "Institutional Policies",
+      "desc": "Rules and guidelines designed to maintain a disciplined, clean, and organized academic environment for all students and guardians.",
+      "discipline": "Discipline & Punctuality",
+      "discipline_text": "Punctual attendance and full adherence to institutional codes of conduct are mandatory for every student.",
+      "dress_code": "Dress Code & Attire",
+      "dress_code_text": "Sunnah attire and Islamic caps for boys; modest, Shariah-compliant hijab for girls.",
+      "attendance": "Attendance & Leave",
+      "attendance_text": "Absences without prior written approval are not permitted, except in cases of documented emergencies."
+    },
+    "faculty": {
+      "title": "Honorable Faculty Members",
+      "desc": "Under the constant guidance of competent, compassionate, and dedicated male and female teachers."
+    },
+    "staff": {
+      "title": "Officials & Support Staff",
+      "desc": "Dedicated staff ensuring continuous security, hygienic cleanliness, and logistical operational excellence."
+    },
+    "roster": {
+      "title": "Workforce & Duties",
+      "desc": "Structured departmental responsibilities ensuring smooth educational and administrative governance."
+    }
+  },
+  "academics": {
+    "title": "Academic Programs",
+    "subtitle": "The integrated modern and religious curriculum of Markazul Iman Dhaka",
+    "levels_title": "Education Levels",
+    "levels_desc": "Well-structured curricula spanning Play to Class 5, Hifzul Quran, and Kitab Division.",
+    "routine_title": "Class & Examination Routines",
+    "routine_desc": "Timely schedules and academic calendars updated regularly for every class.",
+    "class_wise_routine": "Class-Wise Routine",
+    "syllabus_title": "Syllabus & Co-Curricular",
+    "syllabus_desc": "Balanced co-curricular activities supporting physical fitness, mental sharpness, and spiritual growth.",
+    "teachers_list_title": "Class Teachers Directory",
+    "teachers_list_desc": "Information and direct communication channels for assigned class teachers."
+  },
+  "hostel": {
+    "title": "Hostel & Residential Facilities",
+    "subtitle": "A safe, clean, and well-governed residential campus",
+    "about_title": "Hostel Overview",
+    "about_desc": "For students coming from afar, we offer spacious and well-equipped boarding facilities. Featuring 24-hour backup electricity, filtered drinking water, nutritious meals, and round-the-clock security surveillance.",
+    "directors_title": "Residential Directors & Wardens",
+    "directors_desc": "Experienced hostel superintendents and wardens providing paternal guidance and constant student supervision.",
+    "rules_title": "Hostel Regulations",
+    "rules_desc": "Mandatory adherence to institutional residential bylaws for peace, hygiene, and mutual respect.",
+    "routine_title": "Daily Hostel Routine",
+    "routine_desc": "A disciplined lifestyle schedule starting from Tahajjud and Fajr through study sessions and nightly rest.",
+    "chart_title": "Accommodation & Seat Allocation",
+    "chart_desc": "Organized and separate residential seat distributions for boys and girls campuses."
+  },
+  "admission": {
+    "title": "Admission Guidelines & Information",
+    "subtitle": "Guidelines and information for enrollment in the 2026-2027 academic session at Markazul Iman Dhaka",
+    "timeline_title": "Admission Timeline",
+    "timeline_desc": "Admission forms must be collected and submitted within the announced intake schedules.",
+    "test_title": "Admission Assessment & Interview",
+    "test_desc": "Age-appropriate academic assessments and welcoming interviews with guardians.",
+    "process_title": "Admission Procedure",
+    "process_desc": "Complete the form online or in person, submit required documents, and finalize enrollment by paying the admission fee.",
+    "fees_title": "Fees & Monthly Tuition",
+    "fees_desc": "Affordable fee structures tailored to provide premium-quality education without compromise.",
+    "terms_title": "Terms & Conditions",
+    "terms_desc": "Birth registration certificate, passport photos, and previous school transfer records are required.",
+    "online_form_title": "Online Admission Form",
+    "apply_now": "Apply for Admission",
+    "download_form": "Download Form"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch for admissions, inquiries, or feedback",
+    "address_label": "Address",
+    "address_val": "House #484, Road #12, West Nakhalpara, Tejgaon, Dhaka.",
+    "phone_label": "Mobile & WhatsApp",
+    "phone_val": "01611-375282, 01644-968911",
+    "email_label": "Email",
+    "email_val": "info@markazuliman.com",
+    "hours_label": "Office Hours",
+    "hours_val": "Saturday - Thursday: 8:00 AM - 5:00 PM (Friday Closed)",
+    "send_message": "Send Us a Message",
+    "form_name": "Your Full Name",
+    "form_email": "Your Email Address",
+    "form_phone": "Your Phone Number",
+    "form_subject": "Message Subject",
+    "form_message": "Your Detailed Message",
+    "form_submit": "Send Message",
+    "sending": "Sending...",
+    "success_msg": "Your message was sent successfully! We will get back to you shortly.",
+    "error_msg": "Failed to send message. Please try again.",
+    "head_office": "Head Office",
+    "feedback_box": "Suggestions & Feedback Box",
+    "feedback_desc": "Please share your constructive suggestions or feedback to help develop our madrasah.",
+    "social_media": "Social Media",
+    "name_placeholder": "e.g., Abdullah",
+    "phone_placeholder": "e.g., 016XXXXXXXX",
+    "subject_placeholder": "e.g., Feedback on curriculum",
+    "message_placeholder": "Write your detailed message here..."
+  },
+  "footer": {
+    "about_title": "Markazul Iman Dhaka",
+    "about_desc": "A multipurpose Islamic education center — Kindergarten & Hifz Madrasah (Separate Boys/Girls branches | Residential, Non-residential, Day-care). Harmonious integration of religious and modern education in a safe, child-friendly environment.",
+    "quick_links": "Quick Links",
+    "academic_links": "Academic Departments",
+    "contact_info": "Address & Contact",
+    "rights": "Markazul Iman Dhaka. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "notices": {
+    "title": "Notice Board",
+    "subtitle": "Official updates, administrative notices, and circulars of Markazul Iman Dhaka",
+    "all": "All Notices",
+    "academic": "Academic",
+    "administrative": "Administrative",
+    "admission": "Admission",
+    "exam": "Examination",
+    "view_details": "View Details",
+    "download": "Download",
+    "published_on": "Published on:",
+    "no_notices": "No notices found.",
+    "holiday": "Holiday Notices",
+    "urgent": "Urgent Announcements",
+    "general": "General Notices",
+    "loading_notices": "Loading notices...",
+    "no_category_notices": "No notices currently available in this category."
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Memorable moments and campus activities at Markazul Iman Dhaka",
+    "all": "All Photos",
+    "campus": "Campus & Environment",
+    "classes": "Classroom & Academics",
+    "events": "Events & Competitions",
+    "hostel": "Hostel Life",
+    "media_title": "Madrasah Media Gallery",
+    "media_subtitle": "Collection of campus photos, gatherings, competitions, and video archives",
+    "photos_tab": "Photo Gallery",
+    "videos_tab": "Video Gallery"
+  },
+  "results": {
+    "title": "Academic Results",
+    "subtitle": "Check student marks and report cards online by Roll Number",
+    "enter_roll": "Enter Student Roll Number",
+    "select_exam": "Select Exam",
+    "search_btn": "Search Results",
+    "student_name": "Student Name",
+    "grade": "Grade",
+    "gpa": "GPA",
+    "marksheet": "Marksheet & Scorecard",
+    "print": "Print",
+    "result_not_found": "No result found for the provided information.",
+    "management_panel": "Result Management Panel",
+    "generator_title": "Result Sheet Generator",
+    "copy_link": "Copy Result Link",
+    "copied": "Copied!",
+    "print_sheet": "Print Result Sheet",
+    "student_id_label": "Student ID",
+    "student_id_placeholder": "Enter Student ID...",
+    "session_year_label": "Academic Year",
+    "exam_name_label": "Exam Name",
+    "search_prompt": "Please enter a student ID or select a class.",
+    "loading_results": "Loading results...",
+    "ready_banner": "Result sheet ready — share directly or print"
+  },
+  "fatwa": {
+    "title": "Fatwa & Shariah Inquiries",
+    "subtitle": "Reliable rulings in light of the Quran, Sunnah, and Hanafi jurisprudence",
+    "search_placeholder": "Type your query or Mas'ala keywords...",
+    "disclaimer_title": "Disclaimer & Guidance",
+    "disclaimer_text": "The fatwas provided here are supervised by reliable Muftis. For legal arbitration or resolving disputes, please consult the Darul Ifta directly.",
+    "sources_title": "Authentic Sources",
+    "ask_btn": "Submit Question",
+    "verified_badge": "Strictly Verified Fatwa",
+    "whitelisted_sources": "Strictly Whitelisted Authentic Sources",
+    "search_heading": "Fatwa & Shariah Inquiries",
+    "search_intro": "Search authentic Islamic rulings with reliable textual evidences directly from recognized portals",
+    "search_input_placeholder": "Type your query or Mas'ala question here...",
+    "summary_heading": "Summary / Core Ruling",
+    "detailed_heading": "Detailed Explanation by Source:",
+    "references_heading": "Book References & Evidences",
+    "read_original": "Read Original Fatwa on Source Website",
+    "not_found_heading": "Specific ruling not found in approved sources",
+    "call_dept": "Call Madrasah Fatwa Department",
+    "whatsapp_btn": "Contact via WhatsApp",
+    "copied_msg": "Copied!",
+    "copy_btn": "Copy Fatwa"
+  },
+  "auth": {
+    "login_title": "Account Login",
+    "login_subtitle": "Welcome to Markazul Iman Dhaka Management Portal",
+    "register_title": "Create an Account",
+    "register_subtitle": "Sign up to access student portals and services",
+    "email_label": "Email or Username",
+    "password_label": "Password",
+    "name_label": "Full Name",
+    "phone_label": "Phone Number",
+    "remember_me": "Remember Me",
+    "forgot_password": "Forgot Password?",
+    "submit_login": "Sign In",
+    "submit_register": "Register",
+    "no_account": "Don't have an account?",
+    "has_account": "Already have an account?",
+    "back_to_login": "Back to Login",
+    "reset_title": "Reset Password",
+    "reset_subtitle": "Enter your email to receive a password recovery link",
+    "confirm_password_label": "Confirm Password",
+    "select_role": "Which role do you want to join as?",
+    "role_teacher": "Teacher",
+    "role_parent": "Parent",
+    "role_staff": "Staff",
+    "agree_terms": "I agree to all institutional digital policies and terms of use.",
+    "policies_link": "Policies & Terms",
+    "reset_sent_title": "Reset Link Sent!",
+    "reset_success_title": "Password Successfully Reset!",
+    "new_password_label": "New Password",
+    "confirm_new_password_label": "Confirm New Password",
+    "save_password": "Save Password",
+    "verify_title": "Account Verification",
+    "verify_success": "Verification Successful!",
+    "verify_failed": "Verification Failed",
+    "go_profile": "Go to Profile Settings"
+  },
+  "common": {
+    "read_more": "Read More",
+    "view_all": "View All",
+    "details": "Details",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "success": "Success",
+    "search": "Search",
+    "filter": "Filter",
+    "close": "Close",
+    "back": "Back",
+    "print": "Print",
+    "download": "Download",
+    "not_found_title": "Page Not Found",
+    "not_found_desc": "The page you are looking for might have been removed or relocated.",
+    "back_home": "Back to Home",
+    "error_title": "An Error Occurred",
+    "error_desc": "We encountered an unexpected problem while loading this page.",
+    "try_again": "Try Again"
+  },
+  "chatbot": {
+    "title": "Markazul Iman Assistant",
+    "subtitle": "24/7 Online Support",
+    "welcome_msg": "Assalamu Alaikum! Welcome to Markazul Iman Dhaka. Feel free to ask about admissions, departments, or any institutional queries.",
+    "placeholder": "Type your question here...",
+    "send": "Send"
+  }
+}
