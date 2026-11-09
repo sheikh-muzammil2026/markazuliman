@@ -21,7 +21,7 @@ export default function HeroSection() {
         {/* Background Image: Static /Assembly2.jpg */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/Assembly2.jpg"
+            src="/deenishikka.png"
             alt={t("institution.name_en")}
             fill
             sizes="100vw"
@@ -33,21 +33,7 @@ export default function HeroSection() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-black/45" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/35" />
 
-          {/* Decorative Islamic Geometric Star Pattern on the left */}
-          <div className="hidden md:flex pointer-events-none absolute -bottom-6 -left-10 w-80 h-80 sm:w-96 sm:h-96 opacity-15 text-white">
-            <svg
-              viewBox="0 0 200 200"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              className="w-full h-full"
-            >
-              <polygon points="100,10 120,60 170,40 150,90 195,120 145,140 150,190 100,165 50,190 55,140 5,120 50,90 30,40 80,60" />
-              <polygon points="100,25 115,65 155,50 140,90 175,115 135,130 140,170 100,150 60,170 65,130 25,115 60,90 45,50 85,65" />
-              <circle cx="100" cy="100" r="50" />
-              <circle cx="100" cy="100" r="25" />
-            </svg>
-          </div>
+
         </div>
 
         {/* 2. Left Side: Left-aligned bold white typography & action buttons */}
@@ -55,12 +41,11 @@ export default function HeroSection() {
           <div className="max-w-[1380px] w-full space-y-4 sm:space-y-5 py-10">
             {/* Arabic Inscription & English Subtitle Pill */}
             <div className="inline-flex flex-wrap items-center gap-2.5 bg-emerald-950/75 border border-amber-400/40 backdrop-blur-md px-4 py-1.5 rounded-full text-amber-300 text-xs sm:text-sm font-bold shadow-md">
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+
               <span dir="rtl" lang="ar" className="font-serif text-sm sm:text-base">
-                {t("institution.name_ar")}
+                بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
               </span>
-              <span className="text-emerald-400">•</span>
-              <span className="tracking-wide">{t("institution.name_en")}</span>
+
             </div>
 
             {/* Bold White Headline */}
@@ -70,9 +55,7 @@ export default function HeroSection() {
 
             {/* Sub-headline / Tagline */}
             <div className="space-y-1">
-              <p className="text-base sm:text-xl text-amber-300 font-bold tracking-wide">
-                &quot;{t("institution.tagline")}&quot;
-              </p>
+
               <p className="text-xs sm:text-sm text-emerald-300 font-semibold italic">
                 {t("institution.tagline")}
               </p>

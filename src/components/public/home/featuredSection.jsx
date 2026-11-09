@@ -123,20 +123,19 @@ export default function FeaturedSections() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* সেকশন হেডার */}
         <div
-          className={`text-center max-w-3xl mx-auto mb-14 md:mb-16 space-y-4 transition-all duration-1000 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-          }`}
+          className={`text-center max-w-3xl mx-auto mb-14 md:mb-16 space-y-4 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+            }`}
         >
           <div className="inline-flex items-center gap-2 bg-emerald-950/5 dark:bg-gradient-to-r dark:from-amber-500/15 dark:to-emerald-500/10 border border-emerald-800/15 dark:border-amber-400/35 px-4 py-1.5 rounded-full shadow-xs dark:shadow-[0_0_20px_rgba(245,158,11,0.12)]">
-            <Layers className="w-3.5 h-3.5 text-amber-500 dark:text-amber-300" />
+
             <span className="text-emerald-900 dark:text-amber-300 font-bold text-xs uppercase tracking-widest">
               {t("departments.title")}
             </span>
           </div>
 
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[42px] font-black text-slate-900 dark:text-white leading-tight tracking-tight">
-            {t("institution.name")}{" "}
-            <span className="bg-gradient-to-r from-emerald-800 via-emerald-600 to-amber-600 dark:from-amber-200 dark:via-amber-400 dark:to-emerald-300 bg-clip-text text-transparent font-shalda">
+
+            <span className="bg-gradient-to-r pt-2 from-emerald-800 via-emerald-600 to-amber-600 dark:from-amber-200 dark:via-amber-400 dark:to-emerald-300 bg-clip-text text-transparent font-shalda">
               {t("departments.title")}
             </span>
           </h2>
@@ -188,11 +187,10 @@ export default function FeaturedSections() {
 
         {/* ২টি রয়েল ডিপার্টমেন্ট শোকেস কার্ড (#hifz & #academic) */}
         <div
-          className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 transition-all duration-1000 ease-out ${
-            isVisible
-              ? "opacity-100 translate-y-0"
-              : "opacity-0 translate-y-12"
-          }`}
+          className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 transition-all duration-1000 ease-out ${isVisible
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-12"
+            }`}
         >
           {showcaseDepts.map((dept, index) => {
             const IconComponent = dept.icon;
@@ -202,27 +200,24 @@ export default function FeaturedSections() {
               <div
                 key={dept.id}
                 id={dept.id}
-                className={`group relative rounded-[28px] p-[1.5px] transition-all duration-500 hover:-translate-y-2 scroll-mt-28 ${
-                  isHifz
-                    ? "bg-gradient-to-b from-amber-400/60 via-emerald-500/35 to-amber-500/40 shadow-[0_20px_60px_-15px_rgba(2,32,20,0.18)] hover:shadow-[0_30px_70px_-15px_rgba(2,32,20,0.28)] dark:shadow-[0_25px_70px_-15px_rgba(0,0,0,0.9),0_0_40px_rgba(245,158,11,0.12)]"
-                    : "bg-gradient-to-b from-emerald-600/45 via-amber-400/35 to-emerald-900/40 dark:from-emerald-400/55 dark:via-amber-400/35 dark:to-emerald-600/40 shadow-[0_20px_60px_-15px_rgba(2,32,20,0.12)] hover:shadow-[0_30px_70px_-15px_rgba(2,32,20,0.22)] dark:shadow-[0_25px_70px_-15px_rgba(0,0,0,0.9),0_0_40px_rgba(16,185,129,0.12)]"
-                }`}
+                className={`group relative rounded-[28px] p-[1.5px] transition-all duration-500 hover:-translate-y-2 scroll-mt-28 ${isHifz
+                  ? "bg-gradient-to-b from-amber-400/60 via-emerald-500/35 to-amber-500/40 shadow-[0_20px_60px_-15px_rgba(2,32,20,0.18)] hover:shadow-[0_30px_70px_-15px_rgba(2,32,20,0.28)] dark:shadow-[0_25px_70px_-15px_rgba(0,0,0,0.9),0_0_40px_rgba(245,158,11,0.12)]"
+                  : "bg-gradient-to-b from-emerald-600/45 via-amber-400/35 to-emerald-900/40 dark:from-emerald-400/55 dark:via-amber-400/35 dark:to-emerald-600/40 shadow-[0_20px_60px_-15px_rgba(2,32,20,0.12)] hover:shadow-[0_30px_70px_-15px_rgba(2,32,20,0.22)] dark:shadow-[0_25px_70px_-15px_rgba(0,0,0,0.9),0_0_40px_rgba(16,185,129,0.12)]"
+                  }`}
               >
                 <div
-                  className={`relative h-full w-full rounded-[26.5px] p-7 sm:p-10 flex flex-col justify-between overflow-hidden ${
-                    isHifz
-                      ? "bg-gradient-to-br from-[#022014] via-[#042f1e] to-[#01160e] dark:from-[#05291b] dark:via-[#031910] dark:to-[#010a06] text-white dark:shadow-[inset_0_1px_1px_rgba(251,191,36,0.2)]"
-                      : "bg-gradient-to-br from-white via-[#f9fcfb] to-[#f1f8f5] dark:from-[#042418] dark:via-[#02160f] dark:to-[#010906] text-slate-900 dark:text-white dark:shadow-[inset_0_1px_1px_rgba(52,211,153,0.2)]"
-                  }`}
+                  className={`relative h-full w-full rounded-[26.5px] p-7 sm:p-10 flex flex-col justify-between overflow-hidden ${isHifz
+                    ? "bg-gradient-to-br from-[#022014] via-[#042f1e] to-[#01160e] dark:from-[#05291b] dark:via-[#031910] dark:to-[#010a06] text-white dark:shadow-[inset_0_1px_1px_rgba(251,191,36,0.2)]"
+                    : "bg-gradient-to-br from-white via-[#f9fcfb] to-[#f1f8f5] dark:from-[#042418] dark:via-[#02160f] dark:to-[#010906] text-slate-900 dark:text-white dark:shadow-[inset_0_1px_1px_rgba(52,211,153,0.2)]"
+                    }`}
                 >
                   <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-85" />
 
                   <div
-                    className={`pointer-events-none select-none absolute -right-4 -bottom-6 text-7xl sm:text-8xl font-bold kufi-custom transition-transform duration-700 group-hover:scale-110 ${
-                      isHifz
-                        ? "text-white/[0.04] dark:text-amber-300/[0.05]"
-                        : "text-emerald-950/[0.04] dark:text-emerald-300/[0.05]"
-                    }`}
+                    className={`pointer-events-none select-none absolute -right-4 -bottom-6 text-7xl sm:text-8xl font-bold kufi-custom transition-transform duration-700 group-hover:scale-110 ${isHifz
+                      ? "text-white/[0.04] dark:text-amber-300/[0.05]"
+                      : "text-emerald-950/[0.04] dark:text-emerald-300/[0.05]"
+                      }`}
                     dir="rtl"
                     lang="ar"
                   >
@@ -230,32 +225,29 @@ export default function FeaturedSections() {
                   </div>
 
                   <div
-                    className={`pointer-events-none absolute -top-20 -right-20 w-60 h-60 rounded-full blur-3xl transition-opacity duration-500 ${
-                      isHifz
-                        ? "bg-amber-400/15 dark:bg-amber-400/20"
-                        : "bg-emerald-500/10 dark:bg-emerald-400/20"
-                    }`}
+                    className={`pointer-events-none absolute -top-20 -right-20 w-60 h-60 rounded-full blur-3xl transition-opacity duration-500 ${isHifz
+                      ? "bg-amber-400/15 dark:bg-amber-400/20"
+                      : "bg-emerald-500/10 dark:bg-emerald-400/20"
+                      }`}
                   />
 
                   <div className="relative z-10 space-y-6">
                     <div className="flex flex-wrap items-center justify-between gap-3">
                       <span
-                        className={`inline-flex items-center gap-1.5 text-[11px] font-extrabold px-3.5 py-1.5 rounded-full uppercase tracking-wider border ${
-                          isHifz
-                            ? "bg-amber-400/15 text-amber-300 border-amber-400/35 shadow-[0_0_15px_rgba(245,158,11,0.15)]"
-                            : "bg-emerald-950/8 dark:bg-amber-400/15 text-emerald-900 dark:text-amber-300 border-emerald-800/20 dark:border-amber-400/35 dark:shadow-[0_0_15px_rgba(245,158,11,0.15)]"
-                        }`}
+                        className={`inline-flex items-center gap-1.5 text-[11px] font-extrabold px-3.5 py-1.5 rounded-full uppercase tracking-wider border ${isHifz
+                          ? "bg-amber-400/15 text-amber-300 border-amber-400/35 shadow-[0_0_15px_rgba(245,158,11,0.15)]"
+                          : "bg-emerald-950/8 dark:bg-amber-400/15 text-emerald-900 dark:text-amber-300 border-emerald-800/20 dark:border-amber-400/35 dark:shadow-[0_0_15px_rgba(245,158,11,0.15)]"
+                          }`}
                       >
                         <Sparkles className="w-3.5 h-3.5 text-amber-400" />
                         <span>{dept.tag}</span>
                       </span>
 
                       <div
-                        className={`w-13 h-13 rounded-2xl flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3 ${
-                          isHifz
-                            ? "bg-gradient-to-br from-amber-400/20 to-emerald-500/20 border border-amber-400/45 text-amber-300 shadow-[0_0_25px_rgba(245,158,11,0.25)]"
-                            : "bg-gradient-to-br from-[#022014] to-emerald-800 dark:from-emerald-500/20 dark:to-amber-400/20 text-amber-300 ring-1 ring-amber-400/45 shadow-lg dark:shadow-[0_0_25px_rgba(16,185,129,0.25)]"
-                        }`}
+                        className={`w-13 h-13 rounded-2xl flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3 ${isHifz
+                          ? "bg-gradient-to-br from-amber-400/20 to-emerald-500/20 border border-amber-400/45 text-amber-300 shadow-[0_0_25px_rgba(245,158,11,0.25)]"
+                          : "bg-gradient-to-br from-[#022014] to-emerald-800 dark:from-emerald-500/20 dark:to-amber-400/20 text-amber-300 ring-1 ring-amber-400/45 shadow-lg dark:shadow-[0_0_25px_rgba(16,185,129,0.25)]"
+                          }`}
                       >
                         <IconComponent className="w-6 h-6" />
                       </div>
@@ -263,31 +255,28 @@ export default function FeaturedSections() {
 
                     <div>
                       <h3
-                        className={`text-2xl sm:text-3xl font-black tracking-tight ${
-                          isHifz
-                            ? "bg-gradient-to-r from-white via-amber-50 to-amber-200 bg-clip-text text-transparent"
-                            : "text-slate-900 dark:bg-gradient-to-r dark:from-white dark:via-amber-50 dark:to-amber-200 dark:bg-clip-text dark:text-transparent"
-                        }`}
+                        className={`text-2xl sm:text-3xl font-black tracking-tight ${isHifz
+                          ? "bg-gradient-to-r from-white via-amber-50 to-amber-200 bg-clip-text text-transparent"
+                          : "text-slate-900 dark:bg-gradient-to-r dark:from-white dark:via-amber-50 dark:to-amber-200 dark:bg-clip-text dark:text-transparent"
+                          }`}
                       >
                         {dept.title}
                       </h3>
                       <p
-                        className={`text-xs font-semibold mt-1 ${
-                          isHifz
-                            ? "text-amber-300/90"
-                            : "text-emerald-700 dark:text-amber-300/90"
-                        }`}
+                        className={`text-xs font-semibold mt-1 ${isHifz
+                          ? "text-amber-300/90"
+                          : "text-emerald-700 dark:text-amber-300/90"
+                          }`}
                       >
                         {dept.sub}
                       </p>
                     </div>
 
                     <div
-                      className={`flex items-center gap-2.5 px-4 py-2.5 rounded-2xl border text-xs sm:text-[13px] font-bold ${
-                        isHifz
-                          ? "bg-white/[0.06] dark:bg-gradient-to-r dark:from-amber-500/15 dark:to-emerald-500/10 border-amber-400/35 text-amber-200"
-                          : "bg-emerald-950/[0.04] dark:bg-gradient-to-r dark:from-emerald-500/15 dark:to-amber-500/10 border-emerald-800/15 dark:border-amber-400/35 text-emerald-900 dark:text-amber-200"
-                      }`}
+                      className={`flex items-center gap-2.5 px-4 py-2.5 rounded-2xl border text-xs sm:text-[13px] font-bold ${isHifz
+                        ? "bg-white/[0.06] dark:bg-gradient-to-r dark:from-amber-500/15 dark:to-emerald-500/10 border-amber-400/35 text-amber-200"
+                        : "bg-emerald-950/[0.04] dark:bg-gradient-to-r dark:from-emerald-500/15 dark:to-amber-500/10 border-emerald-800/15 dark:border-amber-400/35 text-emerald-900 dark:text-amber-200"
+                        }`}
                     >
                       {isHifz ? (
                         <Clock className="w-4 h-4 text-amber-400 flex-shrink-0" />
@@ -298,11 +287,10 @@ export default function FeaturedSections() {
                     </div>
 
                     <p
-                      className={`text-sm leading-relaxed ${
-                        isHifz
-                          ? "text-emerald-100/85"
-                          : "text-slate-600 dark:text-emerald-100/85"
-                      }`}
+                      className={`text-sm leading-relaxed ${isHifz
+                        ? "text-emerald-100/85"
+                        : "text-slate-600 dark:text-emerald-100/85"
+                        }`}
                     >
                       {dept.description}
                     </p>
@@ -311,18 +299,16 @@ export default function FeaturedSections() {
                       {dept.points.map((pt, i) => (
                         <li
                           key={i}
-                          className={`flex items-start gap-2.5 p-2.5 rounded-xl border text-xs sm:text-[13px] font-medium transition-all duration-200 ${
-                            isHifz
-                              ? "bg-white/[0.04] dark:bg-[#062d1e]/55 hover:bg-white/[0.08] dark:hover:bg-[#083a27]/70 border-white/10 dark:border-emerald-500/20 dark:hover:border-amber-400/40 text-slate-100"
-                              : "bg-white/80 dark:bg-[#05291b]/55 hover:bg-emerald-50/60 dark:hover:bg-[#073624]/70 border-slate-200/70 dark:border-emerald-500/20 dark:hover:border-amber-400/40 text-slate-700 dark:text-slate-100"
-                          }`}
+                          className={`flex items-start gap-2.5 p-2.5 rounded-xl border text-xs sm:text-[13px] font-medium transition-all duration-200 ${isHifz
+                            ? "bg-white/[0.04] dark:bg-[#062d1e]/55 hover:bg-white/[0.08] dark:hover:bg-[#083a27]/70 border-white/10 dark:border-emerald-500/20 dark:hover:border-amber-400/40 text-slate-100"
+                            : "bg-white/80 dark:bg-[#05291b]/55 hover:bg-emerald-50/60 dark:hover:bg-[#073624]/70 border-slate-200/70 dark:border-emerald-500/20 dark:hover:border-amber-400/40 text-slate-700 dark:text-slate-100"
+                            }`}
                         >
                           <CheckCircle2
-                            className={`w-4 h-4 mt-0.5 flex-shrink-0 ${
-                              isHifz
-                                ? "text-amber-400"
-                                : "text-emerald-600 dark:text-amber-400"
-                            }`}
+                            className={`w-4 h-4 mt-0.5 flex-shrink-0 ${isHifz
+                              ? "text-amber-400"
+                              : "text-emerald-600 dark:text-amber-400"
+                              }`}
                           />
                           <span className="leading-snug">{pt}</span>
                         </li>
@@ -331,19 +317,17 @@ export default function FeaturedSections() {
                   </div>
 
                   <div
-                    className={`relative z-10 mt-8 pt-6 border-t flex flex-wrap items-center gap-3 ${
-                      isHifz
-                        ? "border-white/10 dark:border-emerald-800/50"
-                        : "border-slate-200/80 dark:border-emerald-800/50"
-                    }`}
+                    className={`relative z-10 mt-8 pt-6 border-t flex flex-wrap items-center gap-3 ${isHifz
+                      ? "border-white/10 dark:border-emerald-800/50"
+                      : "border-slate-200/80 dark:border-emerald-800/50"
+                      }`}
                   >
                     <Link
                       href={dept.primaryHref}
-                      className={`inline-flex items-center gap-2 text-xs sm:text-sm font-extrabold px-5 py-3 rounded-xl transition-all duration-300 hover:-translate-y-0.5 ${
-                        isHifz
-                          ? "bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 text-slate-950 shadow-[0_8px_25px_rgba(245,158,11,0.35)]"
-                          : "bg-gradient-to-r from-[#022014] via-emerald-900 to-emerald-800 dark:from-amber-400 dark:via-amber-500 dark:to-amber-400 text-white dark:text-slate-950 shadow-md dark:shadow-[0_8px_25px_rgba(245,158,11,0.35)]"
-                      }`}
+                      className={`inline-flex items-center gap-2 text-xs sm:text-sm font-extrabold px-5 py-3 rounded-xl transition-all duration-300 hover:-translate-y-0.5 ${isHifz
+                        ? "bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 text-slate-950 shadow-[0_8px_25px_rgba(245,158,11,0.35)]"
+                        : "bg-gradient-to-r from-[#022014] via-emerald-900 to-emerald-800 dark:from-amber-400 dark:via-amber-500 dark:to-amber-400 text-white dark:text-slate-950 shadow-md dark:shadow-[0_8px_25px_rgba(245,158,11,0.35)]"
+                        }`}
                     >
                       <span>{t("admission.apply_now")}</span>
                       <ArrowRight className="w-4 h-4 rtl:rotate-180" />
@@ -351,11 +335,10 @@ export default function FeaturedSections() {
 
                     <Link
                       href={dept.secondaryHref}
-                      className={`inline-flex items-center gap-2 text-xs sm:text-sm font-bold px-5 py-3 rounded-xl border transition-all duration-300 hover:-translate-y-0.5 ${
-                        isHifz
-                          ? "bg-white/[0.07] hover:bg-white/[0.14] text-white border-white/20 dark:border-amber-400/25 dark:hover:border-amber-400/50"
-                          : "bg-slate-100 hover:bg-emerald-50 dark:bg-white/[0.07] dark:hover:bg-white/[0.14] text-slate-800 dark:text-white border-slate-200 dark:border-amber-400/25 dark:hover:border-amber-400/50"
-                      }`}
+                      className={`inline-flex items-center gap-2 text-xs sm:text-sm font-bold px-5 py-3 rounded-xl border transition-all duration-300 hover:-translate-y-0.5 ${isHifz
+                        ? "bg-white/[0.07] hover:bg-white/[0.14] text-white border-white/20 dark:border-amber-400/25 dark:hover:border-amber-400/50"
+                        : "bg-slate-100 hover:bg-emerald-50 dark:bg-white/[0.07] dark:hover:bg-white/[0.14] text-slate-800 dark:text-white border-slate-200 dark:border-amber-400/25 dark:hover:border-amber-400/50"
+                        }`}
                     >
                       <span>{t("common.details")}</span>
                     </Link>

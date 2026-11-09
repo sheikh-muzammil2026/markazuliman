@@ -304,11 +304,10 @@ export default function Navbar() {
                 <Link
                   href={item.href}
                   onClick={(e) => handleSubmenuClick(e, item.href)}
-                  className={`text-[13px] xl:text-[14px] transition-colors cursor-pointer pb-0.5 border-b-2 whitespace-nowrap ${
-                    active
-                      ? "text-[#008744] border-[#008744] font-semibold"
-                      : "text-slate-700 hover:text-[#008744] border-transparent font-medium"
-                  }`}
+                  className={`text-[13px] xl:text-[14px] transition-colors cursor-pointer pb-0.5 border-b-2 whitespace-nowrap ${active
+                    ? "text-[#008744] border-[#008744] font-semibold"
+                    : "text-slate-700 hover:text-[#008744] border-transparent font-medium"
+                    }`}
                 >
                   {item.name}
                 </Link>
@@ -322,22 +321,20 @@ export default function Navbar() {
                   className="p-0.5 text-slate-500 hover:text-[#008744] focus:outline-none cursor-pointer transition-transform duration-200"
                 >
                   <ChevronDown
-                    className={`w-3.5 h-3.5 transition-transform duration-200 ${
-                      isOpen
-                        ? "rotate-180 text-[#008744]"
-                        : "group-hover:rotate-180"
-                    }`}
+                    className={`w-3.5 h-3.5 transition-transform duration-200 ${isOpen
+                      ? "rotate-180 text-[#008744]"
+                      : "group-hover:rotate-180"
+                      }`}
                   />
                 </button>
               </div>
 
               {/* Glass Dropdown Popover */}
               <div
-                className={`absolute ltr:left-0 rtl:right-0 top-full pt-2 w-56 z-[90] transition-all duration-200 ${
-                  isOpen
-                    ? "opacity-100 visible translate-y-0 pointer-events-auto"
-                    : "opacity-0 invisible translate-y-1 pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:pointer-events-auto"
-                }`}
+                className={`absolute ltr:left-0 rtl:right-0 top-full pt-2 w-56 z-[90] transition-all duration-200 ${isOpen
+                  ? "opacity-100 visible translate-y-0 pointer-events-auto"
+                  : "opacity-0 invisible translate-y-1 pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:pointer-events-auto"
+                  }`}
               >
                 <div className="bg-white text-slate-800 rounded-lg shadow-xl border border-gray-100 p-1.5 space-y-0.5">
                   {item.dropdown.map((sub, i) => (
@@ -358,11 +355,10 @@ export default function Navbar() {
             <Link
               href={item.href}
               onClick={(e) => handleSubmenuClick(e, item.href)}
-              className={`text-[13px] xl:text-[14px] transition-colors block pb-0.5 border-b-2 whitespace-nowrap py-1 ${
-                active
-                  ? "text-[#008744] border-[#008744] font-bold"
-                  : "text-slate-700 hover:text-[#008744] border-transparent font-medium"
-              }`}
+              className={`text-[13px] xl:text-[14px] transition-colors block pb-0.5 border-b-2 whitespace-nowrap py-1 ${active
+                ? "text-[#008744] border-[#008744] font-bold"
+                : "text-slate-700 hover:text-[#008744] border-transparent font-medium"
+                }`}
             >
               {item.name}
             </Link>
@@ -379,9 +375,8 @@ export default function Navbar() {
       >
         {/* Floating rounded container centered horizontally with pure white background */}
         <div
-          className={`max-w-[1380px] mx-auto bg-white rounded-xl shadow-md border border-gray-100/90 px-3 sm:px-5 py-2.5 md:py-3.5 transition-all duration-300 ${
-            isScrolled ? "shadow-lg bg-white/95 backdrop-blur-md" : ""
-          }`}
+          className={`max-w-[1380px] mx-auto bg-white rounded-xl shadow-md border border-gray-100/90 px-3 sm:px-5 py-2.5 md:py-3.5 transition-all duration-300 ${isScrolled ? "shadow-lg bg-white/95 backdrop-blur-md" : ""
+            }`}
         >
           <div className="flex items-center justify-between gap-3 lg:gap-4 xl:gap-6">
             {/* 1. Left Section: Logo & Branding */}
@@ -392,7 +387,7 @@ export default function Navbar() {
                 className="flex items-center gap-2.5 flex-shrink-0 group cursor-pointer"
                 title={`${t("institution.name")} | ${t("institution.name_en")} (${t("institution.name_ar")})`}
               >
-                <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full overflow-hidden flex-shrink-0 border border-emerald-200 shadow-xs">
+                <div className="relative w-10 h-10 sm:w-11 sm:h-11  overflow-hidden flex-shrink-0 shadow-xs">
                   <Image
                     src="/aimlogo1.png"
                     alt={`${t("institution.name_en")} — ${t("institution.name_ar")}`}
@@ -402,17 +397,7 @@ export default function Navbar() {
                     priority
                   />
                 </div>
-                <div className="flex flex-col leading-tight">
-                  <span className="text-xs sm:text-sm font-black text-emerald-950 font-shalda tracking-tight">
-                    {t("institution.name")}
-                  </span>
-                  <span className="text-[10px] font-bold text-amber-700 tracking-wide">
-                    {t("institution.name_en")} •{" "}
-                    <span dir="rtl" lang="ar" className="font-serif">
-                      {t("institution.name_ar")}
-                    </span>
-                  </span>
-                </div>
+
               </Link>
             </div>
 
@@ -426,18 +411,7 @@ export default function Navbar() {
 
             {/* 3. Right Actions */}
             <div className="flex items-center gap-2 sm:gap-2.5 flex-shrink-0">
-              {/* Quick Call Phone Icon */}
-              <a
-                href="tel:01611375282"
-                title="কল করুন: 01611-375282 / 01644-968911"
-                aria-label="Call Markazul Iman Dhaka (01611-375282)"
-                className="p-1.5 sm:p-2 rounded-lg border border-emerald-200 bg-emerald-50 text-emerald-700 hover:bg-emerald-600 hover:text-white transition-colors cursor-pointer shadow-xs flex items-center gap-1.5"
-              >
-                <Phone className="w-4 h-4" />
-                <span className="hidden xl:inline text-xs font-bold font-mono">
-                  01611-375282
-                </span>
-              </a>
+
 
               <LanguageSwitcher />
 

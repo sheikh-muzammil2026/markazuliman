@@ -102,18 +102,13 @@ export default function WhyChooseUs() {
         {/* সেকশন হেডার */}
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20 space-y-4">
           <div className="inline-flex items-center gap-2 bg-emerald-950/5 dark:bg-gradient-to-r dark:from-amber-500/15 dark:to-emerald-500/10 border border-emerald-800/15 dark:border-amber-400/35 px-4 py-1.5 rounded-full shadow-xs dark:shadow-[0_0_20px_rgba(245,158,11,0.12)]">
-            <Sparkles className="w-3.5 h-3.5 text-amber-500 dark:text-amber-300" />
+
             <span className="text-emerald-900 dark:text-amber-300 font-bold text-xs uppercase tracking-widest">
               {t("features.title")}
             </span>
           </div>
 
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[42px] font-black text-slate-900 dark:text-white leading-[1.22] tracking-tight">
-            {t("features.title")} —{" "}
-            <span className="bg-gradient-to-r from-emerald-800 via-emerald-600 to-amber-600 dark:from-amber-200 dark:via-amber-400 dark:to-emerald-300 bg-clip-text text-transparent font-shalda">
-              {t("institution.name")}
-            </span>
-          </h2>
+
 
           <p className="text-sm sm:text-base text-slate-600 dark:text-emerald-100/75 leading-relaxed max-w-2xl mx-auto">
             {t("features.subtitle")}
@@ -134,9 +129,8 @@ export default function WhyChooseUs() {
             return (
               <div
                 key={index}
-                className={`relative p-[1.5px] rounded-3xl overflow-hidden group hover:-translate-y-2 transition-all duration-500 shadow-[0_10px_35px_-12px_rgba(2,32,20,0.08)] hover:shadow-[0_25px_55px_-12px_rgba(2,32,20,0.18)] dark:shadow-[0_20px_50px_-15px_rgba(0,0,0,0.85),0_0_30px_rgba(16,185,129,0.08)] dark:hover:shadow-[0_25px_65px_-12px_rgba(0,0,0,0.95),0_0_40px_rgba(245,158,11,0.16)] ${
-                  index === 6 ? "md:col-span-2 lg:col-span-3 max-w-2xl mx-auto w-full" : ""
-                }`}
+                className={`relative p-[1.5px] rounded-3xl overflow-hidden group hover:-translate-y-2 transition-all duration-500 shadow-[0_10px_35px_-12px_rgba(2,32,20,0.08)] hover:shadow-[0_25px_55px_-12px_rgba(2,32,20,0.18)] dark:shadow-[0_20px_50px_-15px_rgba(0,0,0,0.85),0_0_30px_rgba(16,185,129,0.08)] dark:hover:shadow-[0_25px_65px_-12px_rgba(0,0,0,0.95),0_0_40px_rgba(245,158,11,0.16)] ${index === 6 ? "md:col-span-2 lg:col-span-3 max-w-2xl mx-auto w-full" : ""
+                  }`}
               >
                 <div
                   className="absolute inset-[-100%] custom-border-spin opacity-55 dark:opacity-80 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
